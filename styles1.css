@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower';
+}
+body {
+    background-image: linear-gradient(rgb(239,133,50),rgb(142,0,9));
+    background-repeat: repeat;
+}
+.hero p {
+    text-align: center;
+    font-size: 2rem;
+    background-color: aquamarine;
+}
+.beach {
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
+    
+}
+#rock {
+    width: 30rem;
+    height: auto;
+
+}
+#coast {
+    width: 30rem;
+    height: auto;
+}
+
+#iredale {
+    width: 30rem;
+    height: auto;
+}
+#bruces {
+    width: 15rem;
+    height: auto;
+}
+#tillamook {
+    width: 40rem;
+    height: auto;
+}
+#surfing {
+    width: 30rem;
+    height: auto;
+}
