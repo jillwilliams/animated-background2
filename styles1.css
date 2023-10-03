@@ -133,3 +133,20 @@ nav ul li a:hover {
     width: 25rem;
     height: auto;
 }
+.restaurants {
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
+}
+#mos {
+    width: 35rem;
+    height: auto;
+}
+#bigwave {
+    width: 31rem;
+    height: auto;
+}
+#driftwood {
+    width: 21rem;
+    height: auto;
+}
