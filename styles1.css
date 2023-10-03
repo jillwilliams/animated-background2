@@ -4,13 +4,16 @@
     font-family: 'Indie Flower';
 }
 body {
-    background-image: linear-gradient(rgb(239,133,50),rgb(142,0,9));
+    /* background-image: linear-gradient(rgb(249,249,249),rgb(114,255,203));
+    background-repeat: repeat; */
+    background-image: url("images/blueBackground.jpg");
     background-repeat: repeat;
 }
 .hero p {
     text-align: center;
     font-size: 2rem;
-    background-color: aquamarine;
+    background-color: blue;
+    color: white;
 }
 .beach {
     margin: auto;
@@ -47,5 +50,86 @@ body {
 .locations td {
     font-size: 2rem;
     text-align: center;
-    color: aquamarine;
+    color: blue;
+}
+#house1 {
+    width: 30rem;
+    height: auto;
+}
+#house2 {
+    width: 30rem;
+    height: auto;
+}
+#house3 {
+    width: 30rem;
+    height: auto;
+}
+.rentals {
+
+}
+nav {
+    width: 100%;
+    position: absolute;
+    padding: 20px 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 1rem;
+    align-items: center;
+    padding-top: 40px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+nav ul li a:hover {
+    color: blue;
+}
+#clickMe {
+    width: 60px;
+    height: auto;
+}
+#vrbo {
+    width: 100px;
+    height: auto;
+}
+#airbnb {
+    width: 70px;
+    height: auto;
+}
+#manzanitarentals {
+    width: 180px;
+    height: auto;
+}
+.rentals {
+    margin-bottom: 10rem;
+}
+#beach1 {
+    width: 25rem;
+    height: auto;
+}
+#beach2 {
+    width: 25rem;
+    height: auto;
+}
+#beach3 {
+    width: 25rem;
+    height: auto;
+}
+#beach4 {
+    width: 25rem;
+    height: auto;
+}
+#beach5 {
+    width: 26rem;
+    height: auto;
+}
+#beach6 {
+    width: 25rem;
+    height: auto;
 }

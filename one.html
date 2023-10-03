@@ -10,6 +10,16 @@
     <link rel="stylesheet" HREF="./styles1.css">
     <script src="script1.js"></script>
 <body>
+    <audio id="song">
+        <source src="images/oceanSounds.mp3">
+    </audio>
+    <script>
+        window.addEventListener('click',() => {
+            document.getElementById("song").play();
+        })
+    </script>
+    <img src="images/clickMe.jpg" id="clickMe">
+    
     <div class="hero">
         <p>Welcome to Manzanita</p>
     </div>
@@ -34,3 +44,85 @@
         </tr>
     
     </table>
+    <div class="hero">
+        <p>Home Rentals</p>
+    </div>
+    <table class="beach">
+        <tr>
+            <th><img src="images/house1.jpg" id="house1"></th>
+            <th><img src="images/house2.jpg" id="house2"></th>
+            <th><img src="images/house3.jpg" id="house3"></th>
+        </tr>
+        <tr class="locations">
+            <td>Beachfront Property</td>
+            <td>In-town Rental</td>
+            <td>Beachfront Property</td>
+        </tr>
+    </table>
+    <div class="hero">
+        <p>Rental Agencies</p>
+    </div>
+    <div class="rentals">
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://www.vrbo.com">
+                        <img src="images/vrbologo.jpg" id="vrbo">
+                        Vrbo
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.airbnb.com/">
+                        <img src="images/airbnblogo.jpg" id="airbnb">
+                        Airbnb
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.manzanitarentals.com/">
+                        <img src="images/manzanitarentals.jpg" id="manzanitarentals">
+                        Manzanita Rentals
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="hero"">
+        <p>Ocean Sights</p>
+    </div>
+    <div>
+        <table class="beach">
+            <tr>
+                <th><img src="images/beach1.jpg" id="beach1"></th>
+                <th><img src="images/beach2.jpg" id="beach2"></th>
+                <th><img src="images/beach3.jpg" id="beach3"></th>
+                
+                
+            </tr>
+            <tr class="locations">
+                <td>Northern view</td>
+                <td>Southern View</td>
+                <td>Northern View</td>
+                
+                
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table class="beach">
+            <tr>
+                <th><img src="images/beach4.jpg" id="beach4"></th>
+                <th><img src="images/manzanita.jpg" id="beach5"></th>
+                <th><img src="images/haystack.jpg" id="beach6"></th>
+            </tr>
+            <tr class="locations">
+                
+                <td>View to the West</td>
+                <td>Northern View</td>
+                <td>Cannon Beach</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+
+    
