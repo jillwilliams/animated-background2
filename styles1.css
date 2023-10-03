@@ -44,3 +44,8 @@ body {
     width: 30rem;
     height: auto;
 }
+.locations td {
+    font-size: 2rem;
+    text-align: center;
+    color: aquamarine;
+}
